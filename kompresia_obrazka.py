@@ -1,6 +1,4 @@
 def spracuj_riadok(riadok):
-    """Vráti riadok z núl a jednotiek zapísaný ako počty za sebou idúcich znakov.
-    Ak riadok začína jednotkou, na začiatku je 0 (nula núl)."""
     vysledok = []
     if riadok[0] == "1":
         vysledok.append("0")
